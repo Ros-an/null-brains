@@ -4,8 +4,14 @@
   --clr-primary: rgb(112, 111, 111);
   --clr-primary-light: rgb(182, 168, 168);
   --clr-second: #2b66db;
-  --clr-light-black: rgb(27, 25, 25);
+  --clr-light-black: rgb(37, 35, 35);
   --clr-black-op2: rgba(0, 0, 0, 0.2);
+  --clr-custom-icon: #fad55a;
+  --clr-features: #b5eaea50;
+  --clr-feateres1: #cffae2;
+  --clr-card1: #ff00c8;
+  --clr-card2: #3db2ff;
+  --clr-card3: #fac822;
 }
 
 * {
@@ -32,10 +38,21 @@ body::-webkit-scrollbar-thumb {
   border-radius: 1rem;
   background-color: var(--clr-primary-light);
 }
-main {
-  padding: 0 3.25rem;
+.home {
+  padding: 0 3.3vw;
 }
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-} */
+
+.custom-icon {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  background: var(--clr-custom-icon);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.custom-icon div {
+  height: 0.65rem;
+  width: 0.4rem;
+  border: 1px solid white;
+}

@@ -1,6 +1,7 @@
 import Home from "./home/Home";
-import {Routes, Route} from "react-router-dom"
-// import astronaut from "./assets/taxi-welcome-to-space-1.png"
+import {Routes, Route} from "react-router-dom";
+import Footer from "./footer/Footer";
+
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Route exact path="/contact" element={<Home />} />
         <Route exact path="/blog" element={<Home />} />
       </Routes>     
+      <Footer />
     </main>
   );
 }

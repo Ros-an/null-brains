@@ -1,0 +1,48 @@
+.perform {
+  margin: 10vw 0;
+}
+
+.perform article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 8vw;
+}
+.perform__image,
+.perform__detail {
+  flex: 0.5;
+}
+.perform article img {
+  width: 100%;
+  height: 100%;
+}
+
+.perform__detail {
+  margin-left: 4vw;
+}
+.perform__detail h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.perform__detail p {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 1.25rem;
+}
+.perform__detail ul {
+  list-style: none;
+  margin-top: 2rem;
+}
+.perform__detail ul li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0.5rem 0;
+}
+
+.perform__detail ul li p {
+  flex: 0.8;
+  margin-left: 1rem;
+  color: var(--clr-primary);
+  font-size: 1rem;
+}

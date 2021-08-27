@@ -1,0 +1,22 @@
+.leading-company {
+  margin: 2.5rem 0;
+}
+
+.leading-company h3 {
+  color: var(--clr-light-black);
+  font-size: 0.9rem;
+  text-align: center;
+}
+.leading-company article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.leading-company__logo {
+  width: 8.75rem;
+  margin: 0 1rem;
+}
+.leading-company__logo img {
+  height: 100%;
+  width: 100%;
+}
