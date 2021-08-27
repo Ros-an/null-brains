@@ -1,0 +1,64 @@
+.hero {
+  padding: 7rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.hero__intro {
+  margin-bottom: 1rem;
+}
+.hero__intro h1 {
+  font-size: 4.25rem;
+  font-weight: 800;
+  line-height: 1.1;
+}
+.hero__intro h1:nth-child(2) {
+  color: var(--clr-second);
+}
+
+.hero__intro-in-detail {
+  padding: 1.2rem 0;
+  color: var(--clr-primary);
+}
+.hero__intro-in-detail p {
+  font-size: 1.1rem;
+}
+.hero--purchase-btn {
+  position: relative;
+  margin-top: 1.25rem;
+}
+.hero--purchase-btn button {
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 2.5rem;
+  padding: 1rem 1.75rem;
+  background: var(--clr-second);
+  color: white;
+  z-index: 1;
+}
+.hero--purchase-btn span {
+  position: absolute;
+  font-size: 0.75rem;
+  width: fit-content;
+  padding: 0.2rem 0.5rem;
+  background: var(--clr-primary-light);
+  color: white;
+  border-radius: 2.5rem;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  transform: translate(30%, -50%);
+}
+.hero a {
+  margin: 1rem;
+  text-decoration: none;
+  color: var(--clr-second);
+  font-size: 0.9rem;
+}
+.hero a:hover {
+  text-decoration: underline;
+}

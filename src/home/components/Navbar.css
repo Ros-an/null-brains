@@ -1,0 +1,62 @@
+header {
+  height: 5.5rem;
+}
+nav {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  height: 100%;
+  padding: 0 0.75rem;
+}
+nav ul {
+  height: 100%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo {
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: var(--clr-light-black);
+}
+
+nav .logo span {
+  color: var(--clr-second);
+}
+
+.nav-item {
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--clr-primary);
+}
+.nav-item a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: var(--clr-primary);
+}
+.nav-item a.active,
+.nav-item a:hover {
+  color: var(--clr-second);
+}
+.nav-item .search-icon {
+  margin: 0 1rem;
+  font-size: 1.5rem;
+}
+nav .signup,
+nav .signin {
+  text-transform: capitalize;
+  border: none;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.6rem 1.15rem;
+  border-radius: 3rem;
+}
+nav .signin {
+  color: var(--clr-primary);
+  background: transparent;
+}
+nav .signup {
+  background: var(--clr-second);
+  color: white;
+}

@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+
+:root {
+  --clr-primary: rgb(112, 111, 111);
+  --clr-primary-light: rgb(182, 168, 168);
+  --clr-second: #2b66db;
+  --clr-light-black: rgb(27, 25, 25);
+  --clr-black-op2: rgba(0, 0, 0, 0.2);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  min-height: 100vh;
+  transition: all 0.3s linear;
+}
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: white;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 1rem;
+  background-color: var(--clr-primary-light);
+}
+main {
+  padding: 0 3.25rem;
+}
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
