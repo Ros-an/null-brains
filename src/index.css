@@ -56,3 +56,14 @@ body::-webkit-scrollbar-thumb {
   width: 0.4rem;
   border: 1px solid white;
 }
+
+@media screen and (max-width: 1225px) {
+  .home {
+    padding: 0 2vw;
+  }
+}
+@media screen and (max-width: 450px) {
+  .home {
+    padding: 0;
+  }
+}

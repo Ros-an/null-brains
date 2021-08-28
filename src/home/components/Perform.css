@@ -46,3 +46,35 @@
   color: var(--clr-primary);
   font-size: 1rem;
 }
+
+@media screen and (max-width: 1000px) {
+  .perform article {
+    margin: 0 4vw;
+  }
+
+  .perform__detail h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  .perform__detail p {
+    font-size: 1.1rem;
+  }
+  .perform__detail ul {
+    margin-top: 2vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .perform article {
+    flex-direction: column;
+  }
+  .perform article:nth-child(1) {
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--clr-primary);
+  }
+  .perform article:nth-child(2) {
+    flex-direction: column-reverse;
+  }
+}

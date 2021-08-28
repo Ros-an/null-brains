@@ -1,5 +1,6 @@
 .team {
   margin: 0 3vw;
+  position: relative;
 }
 .team h3 {
   font-weight: 400;
@@ -68,4 +69,40 @@
   color: var(--clr-features);
   filter: brightness(60%);
   margin: 0 0.25rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .team {
+    margin: 0 2vw;
+  }
+  .team h1 {
+    font-size: 2.25rem;
+    width: 60%;
+  }
+  .team h1,
+  .team h2 {
+    padding: 0;
+  }
+  .team__members__image {
+    height: 12.5rem;
+    width: 12.5rem;
+    padding: 1vw;
+  }
+  .team__members__name {
+    margin-top: 1vw;
+    font-size: 1rem;
+  }
+  .team__members__position {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .team h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+  .team .block-for-style {
+    height: 6rem;
+  }
 }

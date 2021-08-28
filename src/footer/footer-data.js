@@ -12,7 +12,7 @@ export const footerData = {
              { id: 3, item: "Team"}, 
              { id: 4, item: "Pricing"}, 
              { id: 5, item: "Contact"},
-             { id: 5, item: "Terms"} 
+             { id: 6, item: "Terms"} 
         ],
         footIcon: [
             { id: 1, icon: RiFacebookCircleFill},

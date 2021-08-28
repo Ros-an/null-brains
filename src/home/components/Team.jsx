@@ -1,5 +1,5 @@
 import React from 'react'
-import {teamData} from "../team-data";
+import {teamData} from "../data/team-data";
 import {AiOutlineTwitter} from "react-icons/ai";
 import {FaGithub} from "react-icons/fa";
 import "./Team.css";
@@ -8,6 +8,7 @@ function Team() {
         <section className="team">
             <h3>{teamData.heading}</h3>
             <h1>{teamData.title}</h1>
+
             <div className="team__members">
             {teamData.members.map(member => {
                 return (

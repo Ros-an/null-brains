@@ -1,6 +1,6 @@
 import React from 'react';
-import {blogCardDetail} from "../project-blog-data";
-import {blogCardDetailOne} from "../project-blog-data";
+import {blogCardDetail} from "../data/project-blog-data";
+import {blogCardDetailOne} from "../data/project-blog-data";
 import "./ProjectBlog.css";
 function ProjectBlog() {
     return (

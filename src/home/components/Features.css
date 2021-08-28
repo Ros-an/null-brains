@@ -53,3 +53,18 @@
 .features__detail {
   color: var(--clr-primary);
 }
+
+@media screen and (max-width: 1000px) {
+  .features__block article {
+    height: 13rem;
+    width: 17.5rem;
+    margin: 1vw;
+    padding: 2vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .features__sub-title {
+    font-size: 1rem;
+  }
+}

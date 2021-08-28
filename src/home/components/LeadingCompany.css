@@ -20,3 +20,9 @@
   height: 100%;
   width: 100%;
 }
+
+@media screen and (max-width: 750px) {
+  .leading-company article {
+    flex-wrap: wrap;
+  }
+}
