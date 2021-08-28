@@ -185,6 +185,10 @@
   .project-blog__card-medium {
     flex-wrap: wrap;
   }
+  .project-blog__card-medium .card__detail,
+  .project-blog__card .card__detail {
+    padding: 1rem;
+  }
   .project-blog__card article,
   .project-blog__card-medium article,
   .project-blog__card-medium article:nth-child(2),
