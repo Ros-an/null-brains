@@ -78,6 +78,10 @@ body::-webkit-scrollbar-thumb {
 .floater:hover {
   font-size: 2rem;
 }
+.icon,
+button {
+  cursor: pointer;
+}
 @media screen and (max-width: 1225px) {
   .home {
     padding: 0 2vw;
