@@ -13,7 +13,9 @@
   --clr-card2: #3db2ff;
   --clr-card3: #fac822;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -56,7 +58,26 @@ body::-webkit-scrollbar-thumb {
   width: 0.4rem;
   border: 1px solid white;
 }
-
+.floater {
+  position: fixed;
+  color: var(--clr-second);
+  height: 3rem;
+  width: 3rem;
+  bottom: 5rem;
+  right: 4rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--clr-primary);
+  font-size: 1.75rem;
+  background: white;
+  z-index: 100;
+  transition: all 0.1s linear;
+}
+.floater:hover {
+  font-size: 2rem;
+}
 @media screen and (max-width: 1225px) {
   .home {
     padding: 0 2vw;
@@ -65,5 +86,9 @@ body::-webkit-scrollbar-thumb {
 @media screen and (max-width: 450px) {
   .home {
     padding: 0;
+  }
+  .floater {
+    right: 2rem;
+    bottom: 3rem;
   }
 }

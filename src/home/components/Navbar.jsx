@@ -8,7 +8,7 @@ import "./Navbar.css";
 function Navbar() {
     const {slideClose, slideOpen, slide} = useSliderContext();
     return (
-        <header>
+        <header id="top">
             <nav>
                 <ul>
                     <li className="logo">
