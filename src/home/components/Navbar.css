@@ -21,6 +21,10 @@ nav .logo {
   align-items: center;
   justify-content: center;
 }
+nav .logo a {
+  text-decoration: none;
+  color: var(--clr-light-black);
+}
 .hamburger {
   font-size: 1.5rem;
   margin-right: 0.5rem;
@@ -43,6 +47,7 @@ nav .logo span {
   text-decoration: none;
   color: var(--clr-primary);
 }
+.nav-item a:first-child,
 .nav-item a.active,
 .nav-item a:hover {
   color: var(--clr-second);
@@ -70,6 +75,14 @@ nav .signup {
 }
 
 @media screen and (max-width: 760px) {
+  header {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+  }
   .hamburger {
     display: block;
     cursor: pointer;

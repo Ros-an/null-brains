@@ -5,7 +5,7 @@ import {BiCopyright} from "react-icons/bi";
 import "./Footer.css";
 function Footer() {
     return (
-        <footer>
+        <footer id="contact">
             <ul>
                 {footerData.footItem.map(item => <li key={item.id}>{item.item}</li>)}
             </ul>

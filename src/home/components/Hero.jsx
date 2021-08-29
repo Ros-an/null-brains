@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 import "./Hero.css";
 function Hero() {
     return (
-        <section className="hero">
+        <section id="home" className="hero">
             <div className="hero__intro">
                 <h1>Start Crafting Your</h1>
                 <h1>Next Great Idea</h1>

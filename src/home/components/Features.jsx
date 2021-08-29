@@ -3,7 +3,7 @@ import {featData} from "../data/features-data";
 import "./Features.css";
 function Features() {
     return (
-        <section className="features">
+        <section id="features" className="features">
             <h2 className="features__heading">{featData.heading}</h2>
             <p className="features__sub-title">{featData.subTitle}</p>
             <div className="features__block">

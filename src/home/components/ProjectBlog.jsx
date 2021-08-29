@@ -4,7 +4,7 @@ import {blogCardDetailOne} from "../data/project-blog-data";
 import "./ProjectBlog.css";
 function ProjectBlog() {
     return (
-        <section className="project-blog">
+        <section id="blog" className="project-blog">
             <h1>The Project Blog</h1>
             <h3>Designs and layouts to help you with your app.</h3>
             <div className="project-blog__card">

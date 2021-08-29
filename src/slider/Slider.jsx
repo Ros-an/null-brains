@@ -10,10 +10,10 @@ function Slider() {
             <div className="slider__body">
             <ImCross className="slider__close" onClick={()=> slideClose()}/>
                 <ul>
-                    <li>Home</li>
-                    <li>Features</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
+                    <li><a href="/#" onClick={()=> slideClose()}>Home</a> </li>
+                    <li><a href="#features" onClick={()=> slideClose()}>Features</a> </li>
+                    <li><a href="#blog" onClick={()=> slideClose()}>Blog</a> </li>
+                    <li><a href="#contact" onClick={()=> slideClose()}>Contact</a> </li>
                     <li>Search <AiOutlineSearch className="search-icon"/></li>
                 </ul>
             </div>

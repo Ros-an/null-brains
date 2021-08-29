@@ -10,16 +10,16 @@ import ProjectBlog from './components/ProjectBlog';
 function Home() {
     return (
         <>
-        <div className="home">
-            <Navbar />
-            <Hero />
-            <LeadingCompany />
-            <Perform />
-            <Features />
-            <Team />
-        </div>
+            <div className="home">
+                <Navbar />
+                <Hero />
+                <LeadingCompany />
+                <Perform />
+                <Features />
+                <Team />
+            </div>
             <ProjectBlog />
-            </>
+        </>
     )
 }
 
