@@ -31,8 +31,8 @@
   flex-direction: column;
 }
 .team__members__image {
-  height: 16.5rem;
-  width: 16.5rem;
+  height: 16rem;
+  width: 16rem;
   padding: 1rem;
   border-radius: 50% 0% 50% 50% / 50% 0% 50% 50%;
 }
